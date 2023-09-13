@@ -39,14 +39,20 @@ function rangeCheck(x,y) {
 // ESERCIZIO 4
 
 function cityCheck(city){
-    let lcity = city.toLocaleLowerCase()
+    let lcity = city.toLocaleLowerCase()https://www.isrcfinder.com/
     if (lcity.slice(0,3).includes("new") || lcity.slice(0,3).includes("las")) {
         return city }
 
-    else { return fale}
+    else { return false}
 }
-let result4 = cityCheck("new york")
-console.log("Esercizio 4 = "+ result4)
+let result4a = cityCheck("new york")
+console.log("Esercizio 4 = "+ result4a)
+
+let result4b = cityCheck("las vegas")
+console.log("Esercizio 4 = "+ result4b)
+
+let result4c = cityCheck("bologna")
+console.log("Esercizio 4 = "+ result4c)
 
 // ESERCIZIO 5
 
