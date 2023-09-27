@@ -39,7 +39,7 @@ function rangeCheck(x,y) {
 // ESERCIZIO 4
 
 function cityCheck(city){
-    let lcity = city.toLocaleLowerCase()https://www.isrcfinder.com/
+    let lcity = city.toLocaleLowerCase()
     if (lcity.slice(0,3).includes("new") || lcity.slice(0,3).includes("las")) {
         return city }
 
@@ -58,16 +58,17 @@ console.log("Esercizio 4 = "+ result4c)
 
 let arrayN = [1,2,3,40,5]
 
-function arraySum (array) {
+// function arraySum (array) 
+
+const somma = (array) =>  {
         let sum = 0
         for (let i = 0; i < array.length; i++) {
             sum += array[i]
             }
-        return sum;
-        }    
+        return sum;}    
 
-let result5 = arraySum(arrayN)
-console.log("Esercizio 5 = "+ result5)
+// let result5 = arraySum(arrayN)
+console.log("Esercizio 5 = "+ (somma(arrayN)));
 
 // ESERCIZIO 6
 
